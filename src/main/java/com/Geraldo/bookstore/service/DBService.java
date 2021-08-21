@@ -11,7 +11,7 @@ import com.Geraldo.bookstore.repositories.CategoriaRepository;
 import com.Geraldo.bookstore.repositories.LivroRepository;
 
 @Service
-public class BDService {
+public class DBService {
 
 	@Autowired
 	private CategoriaRepository categoriaRepository;
