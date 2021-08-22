@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.exceptions;
+package com.Geraldo.bookstore.service.exceptions;
 
 public class ObjectNotFoundException extends RuntimeException {
 
