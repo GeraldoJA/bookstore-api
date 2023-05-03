@@ -75,4 +75,4 @@ public class categoriaResource {
 	
 }
 
-// localhost:8080/categorias/1
+

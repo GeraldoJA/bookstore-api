@@ -29,7 +29,7 @@ import com.Geraldo.bookstore.service.LivroService;
 @RestController
 @RequestMapping(value = "/livros")
 public class LivroResource {
-
+	
 	@Autowired
 	private LivroService service;
 	
@@ -87,7 +87,4 @@ public class LivroResource {
 	
 }
 
-//localhost:8080/livros?categoria=1      - usado no GET, livros por categoria
-//localhost:8080/livros/1                - usado no GET, livro por id
 
-//localhost:8080/livros?categoria=3      - usado no POST
