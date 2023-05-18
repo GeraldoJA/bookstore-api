@@ -1,9 +1,9 @@
-package com.Geraldo.bookstore.repositories;
+package com.geraldo.bookstore.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.Geraldo.bookstore.domain.Categoria;
+import com.geraldo.bookstore.domain.Categoria;
 
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Integer>{

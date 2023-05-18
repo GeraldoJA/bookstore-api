@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore;
+package com.geraldo.bookstore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

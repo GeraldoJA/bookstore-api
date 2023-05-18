@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.resouces.exceptions;
+package com.geraldo.bookstore.resouces.exceptions;
 
 import java.util.ArrayList;
 import java.util.List;

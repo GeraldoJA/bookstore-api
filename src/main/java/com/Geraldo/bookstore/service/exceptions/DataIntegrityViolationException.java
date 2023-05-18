@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.service.exceptions;
+package com.geraldo.bookstore.service.exceptions;
 
 public class DataIntegrityViolationException extends RuntimeException {
 

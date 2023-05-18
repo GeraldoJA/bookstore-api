@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.resouces.exceptions;
+package com.geraldo.bookstore.resouces.exceptions;
 
 import javax.servlet.ServletRequest;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.Geraldo.bookstore.service.exceptions.DataIntegrityViolationException;
-import com.Geraldo.bookstore.service.exceptions.ObjectNotFoundException;
+import com.geraldo.bookstore.service.exceptions.DataIntegrityViolationException;
+import com.geraldo.bookstore.service.exceptions.ObjectNotFoundException;
 
 
 

@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.resouces;
+package com.geraldo.bookstore.resouces;
 
 import java.net.URI;
 import java.util.List;
@@ -21,9 +21,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.Geraldo.bookstore.domain.Livro;
-import com.Geraldo.bookstore.dtos.LivroDTO;
-import com.Geraldo.bookstore.service.LivroService;
+import com.geraldo.bookstore.domain.Livro;
+import com.geraldo.bookstore.dtos.LivroDTO;
+import com.geraldo.bookstore.service.LivroService;
 
 @CrossOrigin("*")
 @RestController

@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.repositories;
+package com.geraldo.bookstore.repositories;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.Geraldo.bookstore.domain.Livro;
+import com.geraldo.bookstore.domain.Livro;
 
 @Repository
 public interface LivroRepository extends JpaRepository<Livro, Integer>{

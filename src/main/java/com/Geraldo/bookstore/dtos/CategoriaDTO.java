@@ -1,9 +1,10 @@
-package com.Geraldo.bookstore.dtos;
+package com.geraldo.bookstore.dtos;
 
 import java.io.Serializable;
 import javax.validation.constraints.NotEmpty;
 import org.hibernate.validator.constraints.Length;
-import com.Geraldo.bookstore.domain.Categoria;
+
+import com.geraldo.bookstore.domain.Categoria;
 
 public class CategoriaDTO implements Serializable {
 

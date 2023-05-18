@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.service;
+package com.geraldo.bookstore.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,10 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.Geraldo.bookstore.domain.Categoria;
-import com.Geraldo.bookstore.domain.Livro;
-import com.Geraldo.bookstore.repositories.LivroRepository;
-import com.Geraldo.bookstore.service.exceptions.ObjectNotFoundException;
+import com.geraldo.bookstore.domain.Categoria;
+import com.geraldo.bookstore.domain.Livro;
+import com.geraldo.bookstore.repositories.LivroRepository;
+import com.geraldo.bookstore.service.exceptions.ObjectNotFoundException;
 
 @Service
 public class LivroService {

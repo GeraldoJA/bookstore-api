@@ -1,14 +1,14 @@
-package com.Geraldo.bookstore.service;
+package com.geraldo.bookstore.service;
 
 import java.util.Arrays;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.Geraldo.bookstore.domain.Categoria;
-import com.Geraldo.bookstore.domain.Livro;
-import com.Geraldo.bookstore.repositories.CategoriaRepository;
-import com.Geraldo.bookstore.repositories.LivroRepository;
+import com.geraldo.bookstore.domain.Categoria;
+import com.geraldo.bookstore.domain.Livro;
+import com.geraldo.bookstore.repositories.CategoriaRepository;
+import com.geraldo.bookstore.repositories.LivroRepository;
 
 @Service
 public class DBService {

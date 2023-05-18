@@ -1,8 +1,8 @@
-package com.Geraldo.bookstore.dtos;
+package com.geraldo.bookstore.dtos;
 
 import java.io.Serializable;
 
-import com.Geraldo.bookstore.domain.Livro;
+import com.geraldo.bookstore.domain.Livro;
 
 public class LivroDTO implements Serializable {
 

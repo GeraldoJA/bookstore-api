@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.resouces.exceptions;
+package com.geraldo.bookstore.resouces.exceptions;
 
 public class StandardError {
 

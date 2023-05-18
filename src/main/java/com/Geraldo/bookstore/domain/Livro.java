@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.domain;
+package com.geraldo.bookstore.domain;
 
 import java.io.Serializable;
 import java.util.Objects;

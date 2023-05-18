@@ -1,4 +1,4 @@
-package com.Geraldo.bookstore.service;
+package com.geraldo.bookstore.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Service;
 
-import com.Geraldo.bookstore.domain.Categoria;
-import com.Geraldo.bookstore.dtos.CategoriaDTO;
-import com.Geraldo.bookstore.repositories.CategoriaRepository;
-import com.Geraldo.bookstore.service.exceptions.ObjectNotFoundException;
+import com.geraldo.bookstore.domain.Categoria;
+import com.geraldo.bookstore.dtos.CategoriaDTO;
+import com.geraldo.bookstore.repositories.CategoriaRepository;
+import com.geraldo.bookstore.service.exceptions.ObjectNotFoundException;
 
 @Service
 public class CategoriaService {
@@ -49,7 +49,7 @@ public class CategoriaService {
 		try {
 			repository.deleteById(id);
 		} catch ( DataIntegrityViolationException e) {
-			throw new com.Geraldo.bookstore.service.exceptions.DataIntegrityViolationException
+			throw new com.geraldo.bookstore.service.exceptions.DataIntegrityViolationException
 			( "Categoria não pode ser deletado! Possue livros associados." );
 		}
 	}
