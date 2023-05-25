@@ -1,4 +1,4 @@
-package com.geraldo.resouces.exceptions;
+package com.geraldo.resources.exceptions;
 
 import java.io.Serializable;
 

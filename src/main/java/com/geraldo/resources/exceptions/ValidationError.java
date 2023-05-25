@@ -1,4 +1,4 @@
-package com.geraldo.resouces.exceptions;
+package com.geraldo.resources.exceptions;
 
 import java.util.ArrayList;
 import java.util.List;

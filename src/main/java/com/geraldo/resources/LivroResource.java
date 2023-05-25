@@ -1,4 +1,4 @@
-package com.geraldo.resouces;
+package com.geraldo.resources;
 
 import java.net.URI;
 import java.util.List;
