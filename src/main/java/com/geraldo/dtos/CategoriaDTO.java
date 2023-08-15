@@ -20,7 +20,6 @@ public class CategoriaDTO implements Serializable {
 	@Length(min = 3, max = 200, message = "O campo DESCRICAO deve ter entre 3 e 200 caracteres")
 	private String descricao;
 	
-	// TODO construtores
 	
 	public CategoriaDTO() {
 		super();
@@ -33,7 +32,6 @@ public class CategoriaDTO implements Serializable {
 		this.descricao = obj.getDescricao();
 	}
 
-	//TODO GETS and SETS 
 
 	public Integer getId() {
 		return id;

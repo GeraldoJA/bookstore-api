@@ -41,7 +41,6 @@ public class Livro implements Serializable{
 	@JoinColumn(name = "categoria_id")
 	private Categoria categoria;
 
-	// TODO construtores
 	
 	public Livro() {
 		super();
@@ -56,7 +55,6 @@ public class Livro implements Serializable{
 		this.categoria = categoria;
 	}
 
-	// TODO hashCode and equals
 	
 	@Override
 	public int hashCode() {
@@ -75,7 +73,6 @@ public class Livro implements Serializable{
 		return Objects.equals(id, other.id);
 	}
 
-	//TODO GETS and SETS 
 	
 	public Integer getId() {
 		return id;

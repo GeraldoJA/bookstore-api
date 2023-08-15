@@ -35,7 +35,6 @@ public class Categoria implements Serializable{
 	@OneToMany(mappedBy = "categoria") 
 	private List<Livro> livros = new ArrayList<>();
 	
-	// TODO construtores
 	
 	public Categoria() {
 		super();		
@@ -48,7 +47,6 @@ public class Categoria implements Serializable{
 		this.descricao = descricao;
 	}	
 	
-	// TODO hashCode and equals
 	
 	@Override
 	public int hashCode() {
@@ -67,7 +65,6 @@ public class Categoria implements Serializable{
 		return Objects.equals(id, other.id);
 	}
 	
-	//TODO GETS and SETS 
 
 	public Integer getId() {
 		return id;

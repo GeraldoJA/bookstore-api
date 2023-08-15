@@ -6,8 +6,7 @@ public class StandardError {
 	private Integer status;
 	private String error;
 	
-	// TODO Construtores
-	
+
 	public StandardError() {
 		super();
 	}
@@ -19,7 +18,6 @@ public class StandardError {
 		this.error = error;
 	}
 
-	// TODO Gets and Sets
 	
 	public Long getTimestamp() {
 		return timestamp;

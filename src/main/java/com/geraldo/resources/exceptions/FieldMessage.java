@@ -8,8 +8,7 @@ public class FieldMessage implements Serializable {
 	
 	private String fieldName;
 	private String message;
-	
-	// TODO construtores
+
 	
 	public FieldMessage() {
 		super();
@@ -21,7 +20,6 @@ public class FieldMessage implements Serializable {
 		this.message = message;
 	}
 
-	//TODO GETS and SETS 
 	
 	public String getFieldName() {
 		return fieldName;

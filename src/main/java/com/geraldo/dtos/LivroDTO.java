@@ -11,7 +11,6 @@ public class LivroDTO implements Serializable {
 	private Integer id;
 	private String titulo;
 	
-	// TODO Construtores
 	
 	public LivroDTO() {
 		super();
@@ -23,7 +22,6 @@ public class LivroDTO implements Serializable {
 		this.titulo = obj.getTitulo();
 	}
 	
-	// TODO Gets and Sets
 
 	public Integer getId() {
 		return id;
